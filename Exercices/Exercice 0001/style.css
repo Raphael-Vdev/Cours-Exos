@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgba(101, 155, 218, 0.685);
+    height: 3000px;
+    width: 1940px;
+}
+
+.bloc001{
+   display: flex;
+   background:orange;
+   height: 200px;
+   width: 1900px;
+   margin: 1%;
+}
+
+.colonne{
+    flex-direction: column;
+    margin: 1%;
+    justify-content: flex-start;
+    
+}
+
+.bloc002{
+    flex-direction: row;
+    background:rgb(165, 158, 158);
+    height: 600px;
+    width: 200px;
+    margin: 10px;
+}
+
+.bloc003{
+    flex-direction: row;
+    background:rgb(255, 232, 29);
+    height: 200px;
+    width: 500px;
+    margin: 1%;
+ }
